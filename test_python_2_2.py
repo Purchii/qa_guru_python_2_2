@@ -13,5 +13,5 @@ def test_google_should_find_selene(open_browser_set_reso):
 
 
 def test_google_should_find_selene_not(open_browser_set_reso):
-    browser.element('[name="q"]').should(be.blank).type('djhgkjrhflkgdjhglfg;jld').press_enter()
-    browser.element('[id="search"]').should(have.no.text('djhgkjrhflkgdjhglfg;jld'))
+    browser.element('[name="q"]').should(be.blank).type('djhgkjrhflkgdjhglfg;jldddgfegwsfdz').press_enter()
+    browser.element('[id="search"]').should(have.no.text('djhgkjrhflkgdjhglfg;jldddgfegwsfdz'))
